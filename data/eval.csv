@@ -1,0 +1,92 @@
+text,label,category,lang
+"URGENT: Your SBI account has been temporarily suspended. Reactivate by verifying details at http://onlinesbi.sbi.secure-login.co/verify",1,kyc,en
+"Dear HDFC Bank user, KYC documents expired. Account will be frozen in 24hrs. Re-submit at hdfcbank-kyc.in",1,kyc,en
+"ICICI: Complete your video KYC today or net banking access stops tonight. Link: bit.ly/icicivkyc",1,kyc,en
+"Your Paytm wallet KYC is pending, wallet will be closed. Call our KYC executive 9876501234",1,kyc,en
+"aapka sim card 24 ghante me band ho jayega kyunki aadhaar verify nahi hua. ye link kholo aadhaar-sim-verify.online",1,kyc,hinglish
+"प्रिय ग्राहक आपका योनो खाता निलंबित कर दिया गया है, पैन कार्ड तुरंत अपडेट करें",1,kyc,hi
+"ನಿಮ್ಮ ಬ್ಯಾಂಕ್ ಖಾತೆ ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ. ಕೆವೈಸಿ ನವೀಕರಿಸಲು ಈ ಲಿಂಕ್ ಒತ್ತಿ kyc-kar.site",1,kyc,kn
+"Sir this is Ramesh from SBI card department, for security purpose kindly read out the code you just received on SMS",1,otp,en
+"Hello, Amazon delivery here. You will get an OTP, please send it to me so I can mark your parcel delivered",1,otp,en
+"bhai mera otp tere number pe aa gaya galti se, jaldi forward kar de please",1,otp,hinglish
+"सर आपके मोबाइल पर एक कोड आया होगा, वो बता दीजिए, कैशबैक मिल जाएगा",1,otp,hi
+"ನಿಮಗೆ ಬಂದ ಒಟಿಪಿ ತಿಳಿಸಿ, ನಿಮ್ಮ ಕಾರ್ಡ್ ಅಪ್‌ಗ್ರೇಡ್ ಆಗುತ್ತದೆ",1,otp,kn
+"I sent you Rs 5000 by mistake on PhonePe. Please approve the request I just sent to return it",1,upi,en
+"You won Rs 2,000 Google Pay scratch card! To claim, accept the payment request and enter your PIN",1,upi,en
+"Refund of your cancelled Swiggy order is ready. Scan this QR and enter UPI PIN to receive 1,450",1,upi,en
+"cashback lene ke liye bas apna upi pin enter karo, paise turant aayenge",1,upi,hinglish
+"Hello! We are hiring for Amazon part-time. Rs 500 for every 3 product reviews. Salary daily. Reply YES",1,job,en
+"Earn ₹10,000 per day working from home! No experience needed. Contact HR on Telegram @easyjobs_india",1,job,en
+"Hi, I got your number from LinkedIn. Simple task: subscribe to YouTube channels, get ₹150 each. Start now?",1,job,en
+"Join our merchant task group. Deposit 1000, get 1300 back in 30 minutes, guaranteed",1,job,en
+"Ghar baithe part time kaam, roz 3000 kamao, sirf 2 ghante",1,job,hinglish
+"घर बैठे काम करें और हर दिन ₹4000 कमाइए, संपर्क करें टेलीग्राम पर",1,job,hi
+"ಮನೆಯಲ್ಲೇ ಕುಳಿತು ಆನ್‌ಲೈನ್ ಕೆಲಸ ಮಾಡಿ ದಿನಕ್ಕೆ ₹2500 ಸಂಪಾದಿಸಿ",1,job,kn
+"IndiaPost: The package arrived at the warehouse but could not be delivered due to incomplete address. Update: indiapost.in-track.top",1,courier,en
+"FedEx: parcel addressed to you contains 5 passports and MDMA. Case forwarded to narcotics. Speak to officer now, press 1",1,arrest,en
+"This is Inspector Sharma, Delhi Police cyber cell. A money laundering FIR is filed on your name. Stay on video call, do not tell family",1,arrest,en
+"Your number will be blocked by TRAI in 2 hours due to illegal SMS sent from it. Press 9 now",1,arrest,en
+"आपके आधार से जुड़े केस में गिरफ्तार किया जाएगा, तुरंत वीडियो कॉल पर आइए",1,arrest,hi
+"ನಿಮ್ಮ ಹೆಸರಿನ ಮೇಲೆ ಪ್ರಕರಣ ದಾಖಲಾಗಿದೆ, ಬಂಧನ ತಪ್ಪಿಸಲು ತಕ್ಷಣ ಕರೆ ಮಾಡಿ",1,arrest,kn
+"Dear Consumer, Your electricity power will be disconnected at 9.30PM tonight from electricity office because your previous month bill was not update. Please immediately contact with our electricity officer 7908XXXXXX",1,bill,en
+"Your gas connection will be cut today due to pending KYC. Contact 8017XXXXXX",1,bill,en
+"bijli ka bill update nahi hua, aaj raat connection kat jayega, is number pe call karo",1,bill,hinglish
+"ವಿದ್ಯುತ್ ಬಿಲ್ ಬಾಕಿ ಇದೆ, ಇಂದು ರಾತ್ರಿ ಸಂಪರ್ಕ ಸ್ಥಗಿತಗೊಳ್ಳುತ್ತದೆ. ಅಧಿಕಾರಿಗೆ ಕರೆ ಮಾಡಿ",1,bill,kn
+"Congrats! Your mobile number won 25,00,000 in the WhatsApp lucky draw 2026. Contact Mr. Rana Pratap to claim",1,prize,en
+"Jio users selected for free 3 month recharge. Activate here jio-free-offer.xyz before it expires today",1,prize,en
+"You have unclaimed reward points of Rs 7,850 on your Axis credit card. Redeem before they lapse: axisrewardz.co",1,prize,en
+"बधाई हो, आपकी 25 लाख की लॉटरी निकली है। प्रोसेसिंग फीस भेजकर इनाम लें",1,prize,hi
+"Earn 3% every day on your money with our AI trading bot. Fully guaranteed returns, withdraw anytime",1,investment,en
+"Join Morgan Stanley VIP stock group on WhatsApp for free insider IPO tips, 300% returns last month",1,investment,en
+"Your SBI rewards are expiring. Download SBI Rewards.apk to redeem points",1,remote,en
+"To process your refund our technician needs to see your screen. Please install AnyDesk and share the 9 digit code",1,remote,en
+"Hi Dad, this is my new number. I lost my phone, need 15,000 for rent urgently. Can you send to this UPI?",1,impersonation,en
+"Pre approved loan of 3 lakh ready! No CIBIL check. Pay Rs 999 file charge to get money today",1,loan,en
+"Your HDFC credit card limit increased. Confirm by sharing card number and CVV on this number",1,otp,en
+"Kindly pay customs clearance charge of Rs 4,500 to release your international gift parcel",1,courier,en
+"Congratulations, you are shortlisted for a Rs 45,000/month data entry job. Pay registration fee Rs 1,500 to confirm",1,job,en
+"Your Flipkart order is delayed. Get compensation of Rs 500, click flpkart-care.com and log in",1,prize,en
+"892145 is your OTP for login to SBI YONO. Do not share this OTP with anyone. SBI never asks for OTP.",0,bank,en
+"Your a/c XX4521 is debited for Rs 1,240.00 on 11-Oct-26 by UPI ref 6281. If not done by you, call 1800 1234 (HDFC Bank)",0,bank,en
+"Rs 25,000 credited to your account XX7781 on 01-Oct salary. Avl bal Rs 61,233. -ICICI Bank",0,bank,en
+"ICICI Bank: Your Video KYC is due. Please complete it from the iMobile app under Profile. Ignore if already done.",0,bank,en
+"Reminder: Your Axis Bank credit card payment of Rs 8,450 is due on 18 Oct. Pay through the Axis Mobile app.",0,bank,en
+"आपके खाते से ₹500 डेबिट हुए हैं। अगर यह आपने नहीं किया तो बैंक को तुरंत सूचित करें। -SBI",0,bank,hi
+"ನಿಮ್ಮ ಖಾತೆಗೆ ₹12,000 ಜಮೆಯಾಗಿದೆ. -ಕೆನರಾ ಬ್ಯಾಂಕ್",0,bank,kn
+"Delivery OTP for your Flipkart order is 4512. Please share it only with the delivery executive at your doorstep.",0,delivery,en
+"Your Amazon package will be delivered today by 9 PM. Track: https://www.amazon.in/gp/your-account/order-history",0,delivery,en
+"Blue Dart: Shipment 82746 is out for delivery. Our courier will contact you before reaching.",0,delivery,en
+"Swiggy: your order from Meghana Foods is on the way, arriving in 25 mins",0,delivery,en
+"bhaiya main gate pe hu, parcel lene aa jao",0,delivery,hinglish
+"आपका पार्सल आज दोपहर तक पहुंच जाएगा।",0,delivery,hi
+"ನಿಮ್ಮ ಪಾರ್ಸೆಲ್ ಇಂದು ಸಂಜೆ ಡೆಲಿವರಿ ಆಗಲಿದೆ",0,delivery,kn
+"BESCOM: Bill for Sept is Rs 1,180, due 15-Oct. Pay at bescom.karnataka.gov.in or any official app.",0,bill,en
+"Your Airtel recharge of Rs 299 is successful. Validity 28 days.",0,bill,en
+"Dear customer your BBMP property tax receipt is available on the official BBMP website.",0,bill,en
+"Hey are you coming to Neha's party tonight? Starts at 8",0,personal,en
+"Can you pick up milk on the way home?",0,personal,en
+"Sorry I'll be 10 mins late, traffic on Outer Ring Road is crazy",0,personal,en
+"Maa I've sent 5000 on GPay for the house, check once",0,personal,en
+"kal ka plan pakka? movie ke baad dinner",0,personal,hinglish
+"Arre yaar laptop charger ghar pe bhool gaya, tera de dega kya kal?",0,personal,hinglish
+"बेटा खाना खा लिया? कल सुबह मंदिर चलना है",0,personal,hi
+"ನಾಳೆ ಬೆಳಿಗ್ಗೆ ಏಳು ಗಂಟೆಗೆ ಜಿಮ್‌ಗೆ ಬರ್ತೀಯಾ?",0,personal,kn
+"ಅಪ್ಪ, ಈ ತಿಂಗಳ ಬಾಡಿಗೆ ಕಟ್ಟಿದೆ. ರಸೀದಿ ಕಳುಹಿಸುತ್ತೇನೆ",0,personal,kn
+"Team, standup moved to 10:30 tomorrow. Please update your tickets before that.",0,work,en
+"Hi Nihar, sharing the interview schedule for Thursday 3 PM. Meeting link will come from our official Google Calendar invite.",0,work,en
+"Your leave request for 21-Oct has been approved by your manager.",0,work,en
+"Thank you for applying to TCS. Your application ID is 774512. We will contact you by email if shortlisted.",0,work,en
+"Diwali sale is live on Myntra! Up to 80% off on top brands. Shop now in the app.",0,marketing,en
+"Zomato: Craving biryani? Get 30% off on your next 2 orders. Code BIRYANI30",0,marketing,en
+"Your HDFC credit card earned 340 reward points this month. Check them in NetBanking.",0,marketing,en
+"Book My Show: Your tickets for Saturday 7:15 PM at PVR Orion are confirmed. Booking ID 99XK2",0,service,en
+"Your appointment at Apollo Clinic is confirmed for 14 Oct, 11:00 AM with Dr. Rao.",0,service,en
+"IRCTC: PNR 4419823341, train 16526, coach B2, seat 41 confirmed. Wish you a happy journey.",0,service,en
+"Your Aadhaar was used for authentication on 10-Oct at 18:32. If not done by you, lock biometrics at uidai.gov.in",0,service,en
+"Income tax refund of Rs 3,420 has been issued to your bank account. Check status at incometax.gov.in",0,service,en
+"Never share your OTP, PIN or CVV with anyone. Bank staff will never ask for them. -RBI Kehta Hai",0,awareness,en
+"धोखेबाज़ों से सावधान रहें, अपना ओटीपी किसी को न बताएं। -भारतीय स्टेट बैंक",0,awareness,hi
+"ಯಾರಿಗೂ ನಿಮ್ಮ ಒಟಿಪಿ ಹಂಚಿಕೊಳ್ಳಬೇಡಿ. ಬ್ಯಾಂಕ್ ಎಂದಿಗೂ ಒಟಿಪಿ ಕೇಳುವುದಿಲ್ಲ",0,awareness,kn
+"Your Uber ride is arriving. Share OTP 4821 with the driver to start the trip",0,service,en
+"Your PhonePe payment of Rs 120 to Chai Point was successful.",0,bank,en
+"SIP of Rs 2,000 in Parag Parikh Flexi Cap processed successfully on 05-Oct.",0,bank,en

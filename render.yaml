@@ -1,0 +1,26 @@
+services:
+  - type: web
+    name: asli
+    runtime: docker
+    healthCheckPath: /healthz
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: asli-db
+          property: connectionString
+      - key: HASH_SALT
+        generateValue: true
+      - key: WHATSAPP_TOKEN
+        sync: false
+      - key: WHATSAPP_PHONE_NUMBER_ID
+        sync: false
+      - key: WHATSAPP_APP_SECRET
+        sync: false
+      - key: WHATSAPP_VERIFY_TOKEN
+        generateValue: true
+      - key: WHATSAPP_DISPLAY_NUMBER
+        sync: false
+
+databases:
+  - name: asli-db
+    plan: free

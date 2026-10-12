@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="{{ lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ t.title }}</title>
+  <meta name="description" content="{{ t.lede }}">
+  <link rel="preload" href="/static/fonts/anek-latin-latin-standard-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/static/css/main.css">
+  <link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+</head>
+<body data-lang="{{ lang }}">
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="top">
+    <a class="wordmark" href="/?lang={{ lang }}">
+      <svg class="mark" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="17" fill="none" stroke="currentColor" stroke-width="3"/><circle cx="20" cy="20" r="11.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M13 20.5l4.5 4.5 9-10" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      Asli
+    </a>
+    <nav class="langs" aria-label="Language">
+      {% for code, name in langs.items() %}
+      <a href="/?lang={{ code }}" lang="{{ code }}" {% if code == lang %}aria-current="true"{% endif %}>{{ name }}</a>
+      {% endfor %}
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="intro">
+      <h1>{{ t.heading }}</h1>
+      <p class="lede">{{ t.lede }}</p>
+    </section>
+
+    <form class="compose" id="check-form" novalidate>
+      <label for="message" class="sr-only">{{ t.label }}</label>
+      <textarea id="message" name="text" rows="6" maxlength="4000" placeholder="{{ t.placeholder }}" required></textarea>
+      <div class="compose-bar">
+        {% if ocr %}
+        <label class="upload">
+          <input type="file" id="image" accept="image/*">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="9" cy="10" r="1.8" fill="currentColor"/><path d="M4 17l5-5 4 4 3-3 4 4" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+          <span data-upload-label>{{ t.or_image }}</span>
+        </label>
+        {% endif %}
+        <button type="submit" class="btn" id="submit" data-idle="{{ t.check }}" data-busy="{{ t.checking }}">{{ t.check }}</button>
+      </div>
+    </form>
+
+    <div class="examples">
+      <span>{{ t.examples }}:</span>
+      <button type="button" data-example="kyc">{{ t.ex_kyc }}</button>
+      <button type="button" data-example="job">{{ t.ex_job }}</button>
+      <button type="button" data-example="otp">{{ t.ex_otp }}</button>
+    </div>
+
+    <p class="error" id="error" role="alert" hidden></p>
+
+    <section class="result" id="result" aria-live="polite" hidden>
+      <div class="bubble-wrap">
+        <div class="bubble" id="bubble"></div>
+        <div class="stamp" id="stamp" aria-hidden="true"></div>
+      </div>
+      <h2 class="headline" id="headline" tabindex="-1"></h2>
+      <p class="hint" id="hint" hidden>{{ t.highlighted }}</p>
+
+      <section class="block" id="flags-block" hidden>
+        <h3>{{ t.why }}</h3>
+        <ul class="flags" id="flags"></ul>
+      </section>
+
+      <section class="block" id="links-block" hidden>
+        <h3>{{ t.links }}</h3>
+        <ul class="links" id="links"></ul>
+      </section>
+
+      <section class="block">
+        <h3>{{ t.what_to_do }}</h3>
+        <ol class="actions" id="actions"></ol>
+      </section>
+
+      <div class="feedback" id="feedback" hidden>
+        <span>{{ t.feedback_q }}</span>
+        <button type="button" data-correct="true">{{ t.yes }}</button>
+        <button type="button" data-correct="false">{{ t.no }}</button>
+        <span class="thanks" id="thanks" hidden>{{ t.thanks }}</span>
+      </div>
+    </section>
+
+    <aside class="helpline">
+      <p><strong>1930</strong> {{ t.helpline }}</p>
+    </aside>
+
+    <section class="how" aria-labelledby="how-title">
+      <h2 id="how-title">{{ t.how_title }}</h2>
+      <ol>
+        <li>{{ t.how_1 }}</li>
+        <li>{{ t.how_2 }}</li>
+        <li>{{ t.how_3 }}</li>
+      </ol>
+      <p class="privacy">{{ t.privacy }}</p>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <p>{{ t.built_by }} <a href="https://niharg-portfolio.netlify.app/">Nihar Girish</a></p>
+    <p class="foot-links"><a href="https://github.com/nihxxr/asli">GitHub</a> <a href="/api/docs">API</a></p>
+  </footer>
+
+  <script id="ui-strings" type="application/json">{{ t|tojson }}</script>
+  <script id="examples" type="application/json">{{ examples|tojson }}</script>
+  <script src="/static/js/app.js" defer></script>
+</body>
+</html>

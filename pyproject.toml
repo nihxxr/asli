@@ -1,0 +1,10 @@
+[project]
+name = "asli"
+version = "1.0.0"
+description = "Checks WhatsApp and SMS messages for common Indian scam patterns in English, Hinglish, Hindi and Kannada"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+filterwarnings = ["ignore::DeprecationWarning"]
